@@ -15,7 +15,7 @@ public class User implements Serializable {
     private String portfolioLink;
     private String specialization;
     private String availability;
-
+     //default constructor
     public User() {
     }
 
