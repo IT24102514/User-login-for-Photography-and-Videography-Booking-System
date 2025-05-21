@@ -50,5 +50,5 @@ public class UpdateAvailabilityServlet extends HttpServlet {
         }
         
         response.sendRedirect("photographer-dashboard.jsp");
-    }
+    }//Dao
 }
