@@ -14,7 +14,7 @@ import java.io.IOException;
 @WebServlet("/forgot-password")
 public class ForgotPasswordServlet extends HttpServlet {
     private UserDAO userDAO = new UserDAO();
-
+//encapsulation
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
