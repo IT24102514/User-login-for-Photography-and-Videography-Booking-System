@@ -1,7 +1,7 @@
 package com.payment.model;
 
 import java.io.Serializable;
-
+//interface
 public class User implements Serializable {
     private String id;
     private String name;
