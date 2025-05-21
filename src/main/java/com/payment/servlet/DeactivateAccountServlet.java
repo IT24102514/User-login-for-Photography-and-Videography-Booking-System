@@ -44,7 +44,7 @@ public class DeactivateAccountServlet extends HttpServlet {
             
             // Invalidate session
             session.invalidate();
-            
+            // user
             response.setContentType("application/json");
             response.getWriter().write("{\"success\": true, \"message\": \"Account deactivated successfully\"}");
             
