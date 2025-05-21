@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebServlet("/update-profile")
+@WebServlet("/update-profile")//URL maping
 public class UpdateProfileServlet extends HttpServlet {
     private UserDAO userDAO = new UserDAO();
 
