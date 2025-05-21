@@ -17,7 +17,7 @@ import java.io.IOException;
     //inheritance
 public class DeactivateAccountServlet extends HttpServlet {
     private UserDAO userDAO = new UserDAO();
-
+    //encapsulation
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
