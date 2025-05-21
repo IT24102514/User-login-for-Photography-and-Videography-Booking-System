@@ -37,7 +37,7 @@ public class ForgotPasswordServlet extends HttpServlet {
             request.getRequestDispatcher("/forgot-password.jsp").forward(request, response);
             return;
         }
-
+//encapsulation
         User user = userDAO.getUserByEmail(email);
 
         if (user != null && user.getPhone().equals(phone)) {
