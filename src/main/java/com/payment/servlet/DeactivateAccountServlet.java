@@ -12,6 +12,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 //URL Maping
 @WebServlet("/deactivate-account")
+    //URL calling
 public class DeactivateAccountServlet extends HttpServlet {
     private UserDAO userDAO = new UserDAO();
 
