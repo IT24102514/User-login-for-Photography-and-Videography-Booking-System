@@ -84,5 +84,5 @@ public class UpdateProfileServlet extends HttpServlet {
             request.setAttribute("error", "An error occurred while updating your profile. Please try again.");
             request.getRequestDispatcher("profile.jsp").forward(request, response);
         }
-    }
+    }//DAO
 }
