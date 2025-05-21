@@ -38,7 +38,7 @@ public class DeactivateAccountServlet extends HttpServlet {
                 response.getWriter().write("{\"success\": false, \"message\": \"Incorrect password\"}");
                 return;
             }
-
+            // delete crud
             // Deactivate account
             userDAO.deactivateUser(currentUser.getId());
             
