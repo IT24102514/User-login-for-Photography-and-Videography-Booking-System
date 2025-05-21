@@ -14,7 +14,7 @@ import java.io.IOException;
 @WebServlet("/update-availability")
 public class UpdateAvailabilityServlet extends HttpServlet {
     private UserDAO userDAO = new UserDAO();
-
+//abstruction
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
