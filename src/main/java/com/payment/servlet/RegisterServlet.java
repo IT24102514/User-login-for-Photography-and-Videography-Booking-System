@@ -30,7 +30,7 @@ public class RegisterServlet extends HttpServlet {
             request.getRequestDispatcher("/register.jsp").forward(request, response);
             return;
         }
-
+//dao
         User user = new User();
         user.setName(name);
         user.setEmail(email);
