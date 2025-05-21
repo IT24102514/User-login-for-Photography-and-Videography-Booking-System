@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-
+//URL maping
 @WebServlet("/update-availability")
 public class UpdateAvailabilityServlet extends HttpServlet {
     private UserDAO userDAO = new UserDAO();
